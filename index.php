@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>LearningPost</title>
-</head>
-<body> 
-	<p>It's important to try new things.</p>
-</body>
-</html>
+<?php 
+
+    require_once "Controller/controller.plantilla.php";
+
+
+    $plantilla = new ControllerPlantilla();
+
+    $plantilla -> ctrlPlantilla();
